@@ -104,12 +104,10 @@
         @include respond(big-desktop-min-2){
             font-size: 70px;
         }
-        @include respond(phone){
-            font-size: 70px;
+        @include respond(zero-size-1){
+            font-size: 52px;
         }
-        @include respond(zero-size){
-            font-size: 50px;
-        }
+      
     }
     &__section-fixed{
         font-size: 32px;
@@ -122,16 +120,14 @@
             font-size: 24px;
             top: 22%;
         }
-        @include respond(phone-md){
-            top: 21%;
+        @include respond(tab-land-5){
+            top: 19.4%;
         }
-        @include respond(phone){
-            top: 14%;
+        @include respond(zero-size-1){
+            top: 11.4%;
+            font-size: 19px;
         }
-        @include respond(zero-size){
-            top: 9%;
-            font-size: 22px;
-        }
+      
     }
     .text-h4-fixed{
         left: 2.2%;

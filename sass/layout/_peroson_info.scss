@@ -15,7 +15,7 @@
         // background-color: red;
         padding-top: 110px;
     }
-    @include respond(zero-size){
+    @include respond(zero-size-1){
         padding-left:30px ;
         height: 550px;
     }
@@ -109,7 +109,7 @@
         @include respond(big-desktop-min-2){
             font-size: 30px;
         }
-        @include respond(zero-size){
+        @include respond(zero-size-1){
             font-size: 24px;
         }
     }
@@ -132,14 +132,14 @@
             font-size: 25px;
             margin-top: 57px;
         }
-        @include respond(zero-size){
+        @include respond(zero-size-1){
             font-size: 25px;
             
         }
     }
     &__mudssar-subtile{
         position: relative;
-        @include respond(zero-size){
+        @include respond(zero-size-1){
             padding-left: 10px;
         }
     }
@@ -185,7 +185,7 @@
         letter-spacing: 25;
         margin-bottom: -8px;
         color: #fff;
-        @include respond(zero-size){
+        @include respond(zero-size-1){
             font-size: 18px;
         }
     }
@@ -194,7 +194,7 @@
         letter-spacing: 25;
         display: inline-block;
         color:#6f778a;
-        @include respond(zero-size){
+        @include respond(zero-size-1){
             font-size: 11px;
         }
     }
@@ -210,8 +210,11 @@
         @include respond(tab-port){
             padding-left: 50px;
         }
-        @include respond(zero-size){
+        @include respond(zero-size-1){
             flex-wrap: wrap;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
         }
     }
     &__person-social-content{

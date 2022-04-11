@@ -13,6 +13,10 @@
             padding-top: 50px;
             padding-bottom: 50px;
         }
+        @include respond(zero-size-1){
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
     }
     &__knowledge-col{
         width: 100%;
@@ -24,7 +28,6 @@
     
        @include respond(phone){
            max-width: 100%;
-           border-bottom: 1px solid #55556a;
             padding-bottom: 2rem;
            &:not(:first-child){
                margin-top: 1.35rem;
@@ -34,7 +37,7 @@
     }
     @include respond(phone){
         .knowledge-border{
-            border-top: 1px solid #55556a;
+            // border-top: 1px solid #55556a;
             padding-top: 1.25rem;
         }
     }
@@ -55,8 +58,8 @@
             @include respond(big-desktop-min-2){
                 margin-top: 18px;
             }
-            @include respond(phone){
-                margin-top: 18px;
+            @include respond(zero-size-1){
+                margin-top: 14px;
             }
         }
     }

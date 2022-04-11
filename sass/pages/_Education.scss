@@ -60,10 +60,10 @@
             padding-top: 20px;
             padding-bottom: 20px;
         }
-        @include respond(phone){
+        @include respond(zero-size-1){
             max-width: 100%;
             // border-bottom: 1px solid #3D3D52;
-            padding:25px 0;
+            padding:18px 0;
         }
     }
     &__bottom-line{
