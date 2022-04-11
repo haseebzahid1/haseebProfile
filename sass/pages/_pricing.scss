@@ -16,6 +16,10 @@
             padding-right:10px ;
             padding-left: 10px;
         }
+        @include respond(zero-size-1){
+           padding-top: 15px;
+           padding-bottom: 40px;
+        }
     }
     &__pricing-col-4{
         width: 100%;
@@ -210,3 +214,5 @@
     }
    
 }
+
+// clients css contact education experience home inetests knowlwdge languagg prici  pref

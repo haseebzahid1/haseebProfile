@@ -66,6 +66,9 @@
             margin-left: auto;
             margin-right: auto;
         }
+        @include respond(zero-size-1){
+            padding: 14px 12px 14px 12px;
+        }
        
     }
 // textimonial-col-4 child ha testimonial-col-5
@@ -204,6 +207,10 @@
         font-size: 14px;
         color: #55556A;
         line-height: 30px;
+        @include respond(zero-size-1){
+            margin-top: 15px;
+            line-height: 25px;
+        }
     }
 }
 

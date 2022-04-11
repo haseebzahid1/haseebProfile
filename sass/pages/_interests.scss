@@ -12,6 +12,10 @@
             padding-top: 40px;
             padding-bottom: 60px;
         }
+        @include respond(zero-size-1){
+            padding-top: 30px;
+            padding-bottom: 40px;
+        }
     }
     &__interests-col-3{
         padding: 20px 0;
@@ -22,11 +26,11 @@
             max-width: 30.333333%;
             padding-left: 10px;
         }
-        @include respond(phone){
+        @include respond(zero-size-1){
             max-width: 100%;
             padding-left: 10px;
             &:not(:first-child){
-                margin-top: 2rem;
+                margin-top: 1rem;
             }
         }
     }

@@ -1381,6 +1381,10 @@ https://ant.design/components/progress/
         padding-top: 50.3px;
         padding-bottom: 70px;
         padding-right: 1rem; } }
+    @media (max-width: 576px) {
+      .project__project-container {
+        padding-top: 40px;
+        padding-bottom: 40px; } }
   .project__project-row {
     width: 100%;
     display: flex;
@@ -1521,6 +1525,9 @@ https://ant.design/components/progress/
         padding: 20px 30px 20px 30px;
         margin-left: auto;
         margin-right: auto; } }
+    @media (max-width: 576px) {
+      .testimonial__testimonial-col-7 {
+        padding: 14px 12px 14px 12px; } }
   .testimonial__testimonial-col-4 {
     width: 100%; }
   .testimonial__testimonial-left-flex {
@@ -1624,6 +1631,10 @@ https://ant.design/components/progress/
     font-size: 14px;
     color: #55556A;
     line-height: 30px; }
+    @media (max-width: 576px) {
+      .testimonial__testimonial-p {
+        margin-top: 15px;
+        line-height: 25px; } }
 
 .language {
   position: relative; }
@@ -1637,6 +1648,10 @@ https://ant.design/components/progress/
         flex-wrap: wrap;
         padding-top: 70px;
         padding-bottom: 90px; } }
+    @media (max-width: 576px) {
+      .language__language-row {
+        padding-top: 42px;
+        padding-bottom: 40px; } }
   .language__language-col-3 {
     width: 100%;
     max-width: 25%;
@@ -1696,6 +1711,10 @@ https://ant.design/components/progress/
       .interests__interests-row {
         padding-top: 40px;
         padding-bottom: 60px; } }
+    @media (max-width: 576px) {
+      .interests__interests-row {
+        padding-top: 30px;
+        padding-bottom: 40px; } }
   .interests__interests-col-3 {
     padding: 20px 0;
     width: 100%;
@@ -1704,12 +1723,12 @@ https://ant.design/components/progress/
       .interests__interests-col-3 {
         max-width: 30.333333%;
         padding-left: 10px; } }
-    @media (max-width: 667px) {
+    @media (max-width: 576px) {
       .interests__interests-col-3 {
         max-width: 100%;
         padding-left: 10px; }
         .interests__interests-col-3:not(:first-child) {
-          margin-top: 2rem; } }
+          margin-top: 1rem; } }
   .interests__interests-col-mt {
     margin-top: 79px; }
     @media (max-width: 1400px) {
@@ -1775,6 +1794,10 @@ https://ant.design/components/progress/
       .services__services-row {
         padding-top: 60px;
         padding-bottom: 65px; } }
+    @media (max-width: 576px) {
+      .services__services-row {
+        padding-top: 45px;
+        padding-bottom: 40px; } }
   .services__services-col-6 {
     width: 100%;
     max-width: 50%; }
@@ -1830,10 +1853,10 @@ https://ant.design/components/progress/
     @media (max-width: 826px) {
       .services__services-content {
         padding-right: 0; } }
-    @media (max-width: 667px) {
+    @media (max-width: 576px) {
       .services__services-content {
-        padding-top: 30px;
-        padding-bottom: 30px; } }
+        padding-top: 14px;
+        padding-bottom: 14px; } }
 
 .portfolio {
   position: relative; }
@@ -1844,6 +1867,10 @@ https://ant.design/components/progress/
       .portfolio__portfolio_margin-tb {
         padding-top: 50px;
         padding-bottom: 65px; } }
+    @media (max-width: 576px) {
+      .portfolio__portfolio_margin-tb {
+        padding-top: 40px;
+        padding-bottom: 40px; } }
   .portfolio__portfolio-row {
     display: flex;
     flex-wrap: wrap;
@@ -1886,6 +1913,9 @@ https://ant.design/components/progress/
     @media (max-width: 1400px) {
       .portfolio__portfolio-img {
         height: 220px; } }
+    @media (max-width: 576px) {
+      .portfolio__portfolio-img {
+        height: 170px; } }
     .portfolio__portfolio-img:before {
       content: '';
       position: absolute;
@@ -2197,6 +2227,10 @@ https://ant.design/components/progress/
       .pricing__pricing-row {
         padding-right: 10px;
         padding-left: 10px; } }
+    @media (max-width: 576px) {
+      .pricing__pricing-row {
+        padding-top: 15px;
+        padding-bottom: 40px; } }
   .pricing__pricing-col-4 {
     width: 100%;
     max-width: 31%;
