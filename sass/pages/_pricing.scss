@@ -1,0 +1,174 @@
+.pricing{
+    position: relative;
+    &__pricing-row{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding-top:90px;
+        padding-bottom: 150px;
+        flex-wrap: wrap;
+        @include respond(phone-md){
+            padding-top:30px;
+            padding-bottom: 70px;
+        }
+        @include respond(tab-land-6){
+            padding-right:10px ;
+            padding-left: 10px;
+        }
+    }
+    &__pricing-col-4{
+        width: 100%;
+        max-width: 31%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        @include respond(phone-md){
+            max-width: 44%;
+           margin-top: 2.5rem;
+        }
+        @include respond(phone){
+            max-width: 90%;
+            // border: 1px solid blue;
+           
+        }
+    }
+    &__pricing-bg-img{
+        width: 100%;
+        height: 749px;
+        @include respond(tab-land){
+            height: 690px;
+        }
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        // border: 1px solid red;
+    }
+    &__pricing-card{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 130px;
+        padding-bottom: 118px;
+       
+    }
+    &__pricing-h2{
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: bold;
+        color: #000000;
+        text-transform: uppercase;
+       
+        padding-left: 30.4px;
+    }
+    &__pricing-line{
+        width: 100%;
+        display: block;
+        border: 1px solid #C9C9C9;
+        margin-top: 16px;
+        margin-bottom: 63px;
+    }
+    &__pricing-list{
+        margin-bottom: 62.3px;
+        padding-left: 30.4px;
+        @include respond(tab-land){
+            margin-bottom: 40px;
+        }
+    }
+    &__pricing-group{
+        &:not(:first-child){
+            margin-top: 23px;
+            @include respond(tab-land){
+                margin-top: 15px;
+            }
+        }
+    }
+    &__pricing-check{
+        display: inline-block;
+        padding-right: 30.3px;
+        font-size:14px;
+        color: #55556A;
+    }
+    &__check-red{
+        color: #ED2B23;
+    }
+    &__pricing-title{
+        font-size: 14px;
+        line-height: 30px;
+        color: #55556A;
+       
+    }
+    &__pricing-btn{
+        text-align: center;
+    }
+    &__pricing-btn-a{
+        width: 100%;
+        max-width:162px;
+        height: 44px;
+        line-height: 44px;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        font-weight: bold;
+        background-color: #ED2B23;
+        transform: all 0.3s ease-in-out;
+        display: inline-block;
+        border-radius: 2px;
+        transition: all 0.3s ease-in-out;
+        border: 1px solid #171717;
+        &:hover{
+            background-color: #fff;
+            color: #030318;
+            
+        }
+    }
+    .pricing-btn-a-1{
+        background-color: #fff;
+        color: #030318;
+        border: 1px solid #171717;
+        &:hover{
+            background-color: #ED2B23 !important;
+            color: #fff !important;
+        }
+    }
+    &__pricing-table{
+        position: absolute;
+        top: 119px;
+        right: 16px;
+        width: 114px;
+        height: 114px;
+        border-radius: 50%;
+        background-color: #030318;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    &__use-dolor i{
+        display: inline-block;
+        color: #fff;
+        font-size: 15px;
+        position: absolute;
+        top: 38px;
+        left: 22px;
+    }
+    &__pricing-bg-red{
+        background-color: #ED2B23;
+    }
+   
+    &__pricing-top-h1{
+        color: #fff;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    &__pricing-top-00{
+        position: absolute;
+        top: 53px;
+        right: 13px;
+        font-size: 14px;
+        color: #fff;
+    }
+   
+}

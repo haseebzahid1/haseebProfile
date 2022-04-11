@@ -1,0 +1,54 @@
+.experience{
+    position: relative;
+    &__slide-margin{
+        padding-top: 98.5px !important;
+        padding-bottom: 150px !important;
+        @include respond(phone-md){
+            padding-top:57.3px !important;
+        }
+    }
+   &__experience-line{
+    width: 96%;
+    display: block;
+    height: 1px;
+    background-color: #3D3D52;
+    margin-top: 29.7px;
+    margin-bottom: 25.7px;
+   } 
+   &__experience-img{
+       i{
+        display: inline-block;
+        font-size: 45px;
+        color: #fff;
+       }
+   }
+   &__experience-date{
+       font-size: 14px;
+       display: inline-block;
+       font-weight: 300;
+       color: #ED2B23;
+       line-height: 30px;
+   }
+   &__experience-h2{
+       font-size: 20px;
+       font-weight: 600;
+       line-height: 30px;
+       letter-spacing: 25;
+       margin-bottom: 23.7px;
+       color: #fff;
+       @include respond(tab-land-6){
+           font-size: 18px;
+       }
+   }
+   &__experience-p{
+       font-size: 14px;
+       line-height: 30px;
+       color: #55556A;
+    //    padding-bottom: 60px;
+   }
+   &__experience-item-flex{
+        display: flex;
+   }
+
+}
+

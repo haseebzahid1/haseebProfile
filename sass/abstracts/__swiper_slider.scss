@@ -1,0 +1,79 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .experience .swiper-slide {
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.experience  .swiper .swiper-pagination-horizontal{
+    bottom: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 9%;
+    z-index: -1;
+    display: inline-block;
+    @include respond(phone-seven){
+        width: 50%;
+    }
+  }
+
+
+  .experience  .swiper .swiper-pagination-bullet{
+     background-color: #55556A;
+     opacity: .6;
+  }
+  .experience  .swiper .swiper-pagination-bullet-active{
+     background-color: #ED2B23;
+     width: 9px;
+     height: 9px;
+     opacity: 1;
+  }
+  
+  .experience  .swiper .swiper-button-next,
+  .experience  .swiper .swiper-button-prev{
+    color: #ED2B23;
+    width: 3%;
+    top: 84%;
+  }
+  .experience  .swiper .swiper-button-next{
+    right: 42.5% ;
+    @include respond(tab-port-1){
+        right: 41%;
+    }
+    
+ }
+ .experience  .swiper .swiper-button-prev{
+    left: 42.5%;
+    @include respond(tab-port-1){
+        left: 41%;
+    }
+ }
+  .experience  .swiper .swiper-button-next:after,
+  .experience  .swiper .swiper-button-prev:after{
+    font-size: 19px !important;
+  }
+  .swiper-sm-none{
+      @include respond(phone-seven){
+        display: none !important;
+      }
+  }
