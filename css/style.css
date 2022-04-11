@@ -445,7 +445,7 @@ p {
         height: 570px; } }
     @media (max-width: 992px) {
       .person__set {
-        right: 6%; } }
+        right: 3%; } }
     @media (max-width: 576px) {
       .person__set {
         display: none; } }
@@ -647,6 +647,10 @@ p {
     .footer__footer-row {
       padding-left: 15px;
       padding-right: 15px; } }
+  @media (max-width: 992px) {
+    .footer__footer-row {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
   @media (max-width: 826px) {
     .footer__footer-row {
       flex-wrap: wrap; } }
@@ -673,7 +677,6 @@ p {
     max-width: 50%;
     padding-top: 25px;
     padding-bottom: 25px;
-    border: 1px solid #55556A;
     padding-left: 1rem; } }
 
 @media (max-width: 667px) {
@@ -2073,7 +2076,7 @@ https://ant.design/components/progress/
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .contact__contact-row {
         padding-top: 57.3px;
         padding-bottom: 70px; } }
@@ -2092,11 +2095,13 @@ https://ant.design/components/progress/
     .contact__contact-col-8, .contact__contact-col-4 {
       max-width: 100%; } }
   .contact__contact-form-inner {
-    padding: 50px 30px;
-    border: 1px solid #3D3D52; }
+    padding: 50px 30px; }
+    @media (max-width: 1400px) {
+      .contact__contact-form-inner {
+        padding: 10px 30px; } }
     @media (max-width: 480px) {
       .contact__contact-form-inner {
-        padding: 50px 0; } }
+        padding: 10px 0; } }
   .contact__contact-input-row {
     display: flex;
     flex-wrap: wrap;
@@ -2156,15 +2161,17 @@ https://ant.design/components/progress/
   .contact__contact-img {
     padding-left: 30px;
     width: 100%;
-    height: 543px; }
+    min-height: 243px; }
+    @media (max-width: 1400px) {
+      .contact__contact-img {
+        height: 470px; } }
+    @media (max-width: 992px) {
+      .contact__contact-img {
+        height: 320px; } }
     @media (max-width: 826px) {
       .contact__contact-img {
         margin-top: 2rem;
-        padding-left: 0;
-        height: 470px; } }
-    @media (max-width: 667px) {
-      .contact__contact-img {
-        height: 400px; } }
+        padding-left: 0; } }
     .contact__contact-img img {
       width: 100%;
       height: 100%;
@@ -2213,7 +2220,7 @@ https://ant.design/components/progress/
     height: 749px; }
     @media (max-width: 1400px) {
       .pricing__pricing-bg-img {
-        height: 624px; } }
+        height: 574px; } }
   .pricing .img {
     width: 100%;
     height: 100%;
@@ -2260,21 +2267,21 @@ https://ant.design/components/progress/
     margin-top: 23px; }
     @media (max-width: 1400px) {
       .pricing__pricing-group:not(:first-child) {
-        margin-top: 16px; } }
+        margin-top: 10px; } }
   .pricing__pricing-check {
     display: inline-block;
     padding-right: 30.3px;
     font-size: 14px;
     color: #55556A; }
-    @media (max-width: 1400px) {
-      .pricing__pricing-check {
-        line-height: 26px; } }
   .pricing__check-red {
     color: #ED2B23; }
   .pricing__pricing-title {
     font-size: 14px;
     line-height: 30px;
     color: #55556A; }
+    @media (max-width: 1400px) {
+      .pricing__pricing-title {
+        line-height: 26px; } }
   .pricing__pricing-btn {
     text-align: center; }
   .pricing__pricing-btn-a {
