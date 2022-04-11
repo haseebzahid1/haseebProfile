@@ -2183,9 +2183,9 @@ https://ant.design/components/progress/
     padding-top: 90px;
     padding-bottom: 150px;
     flex-wrap: wrap; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .pricing__pricing-row {
-        padding-top: 30px;
+        padding-top: 50px;
         padding-bottom: 70px; } }
     @media (max-width: 1240px) {
       .pricing__pricing-row {
@@ -2197,6 +2197,9 @@ https://ant.design/components/progress/
     position: relative;
     margin-left: auto;
     margin-right: auto; }
+    @media (max-width: 1400px) {
+      .pricing__pricing-col-4 {
+        max-width: 29%; } }
     @media (max-width: 826px) {
       .pricing__pricing-col-4 {
         max-width: 44%;
@@ -2206,10 +2209,11 @@ https://ant.design/components/progress/
         max-width: 90%; } }
   .pricing__pricing-bg-img {
     width: 100%;
+    height: 100%;
     height: 749px; }
-    @media (max-width: 1024px) {
+    @media (max-width: 1400px) {
       .pricing__pricing-bg-img {
-        height: 690px; } }
+        height: 624px; } }
   .pricing .img {
     width: 100%;
     height: 100%;
@@ -2222,6 +2226,10 @@ https://ant.design/components/progress/
     left: 0;
     padding-top: 130px;
     padding-bottom: 118px; }
+    @media (max-width: 1400px) {
+      .pricing__pricing-card {
+        padding-top: 110px;
+        padding-bottom: 30px; } }
   .pricing__pricing-h2 {
     font-size: 24px;
     line-height: 30px;
@@ -2229,28 +2237,38 @@ https://ant.design/components/progress/
     color: #000000;
     text-transform: uppercase;
     padding-left: 30.4px; }
+    @media (max-width: 1400px) {
+      .pricing__pricing-h2 {
+        line-height: 27px;
+        font-size: 23px; } }
   .pricing__pricing-line {
     width: 100%;
     display: block;
     border: 1px solid #C9C9C9;
     margin-top: 16px;
     margin-bottom: 63px; }
+    @media (max-width: 1400px) {
+      .pricing__pricing-line {
+        margin-bottom: 30px; } }
   .pricing__pricing-list {
     margin-bottom: 62.3px;
     padding-left: 30.4px; }
-    @media (max-width: 1024px) {
+    @media (max-width: 1400px) {
       .pricing__pricing-list {
-        margin-bottom: 40px; } }
+        margin-bottom: 35px; } }
   .pricing__pricing-group:not(:first-child) {
     margin-top: 23px; }
-    @media (max-width: 1024px) {
+    @media (max-width: 1400px) {
       .pricing__pricing-group:not(:first-child) {
-        margin-top: 15px; } }
+        margin-top: 16px; } }
   .pricing__pricing-check {
     display: inline-block;
     padding-right: 30.3px;
     font-size: 14px;
     color: #55556A; }
+    @media (max-width: 1400px) {
+      .pricing__pricing-check {
+        line-height: 26px; } }
   .pricing__check-red {
     color: #ED2B23; }
   .pricing__pricing-title {
@@ -2295,6 +2313,11 @@ https://ant.design/components/progress/
     justify-content: center;
     display: flex;
     align-items: center; }
+    @media (max-width: 1400px) {
+      .pricing__pricing-table {
+        top: 104px;
+        width: 95px;
+        height: 95px; } }
   .pricing__use-dolor i {
     display: inline-block;
     color: #fff;
@@ -2302,15 +2325,26 @@ https://ant.design/components/progress/
     position: absolute;
     top: 38px;
     left: 22px; }
+    @media (max-width: 1400px) {
+      .pricing__use-dolor i {
+        top: 32px;
+        left: 15px; } }
   .pricing__pricing-bg-red {
     background-color: #ED2B23; }
   .pricing__pricing-top-h1 {
     color: #fff;
     font-size: 32px;
     font-weight: 600; }
+    @media (max-width: 1400px) {
+      .pricing__pricing-top-h1 {
+        font-size: 28px; } }
   .pricing__pricing-top-00 {
     position: absolute;
     top: 53px;
     right: 13px;
     font-size: 14px;
     color: #fff; }
+    @media (max-width: 1400px) {
+      .pricing__pricing-top-00 {
+        top: 48px;
+        right: 8px; } }
