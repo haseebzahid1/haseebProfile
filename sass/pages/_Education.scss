@@ -10,7 +10,7 @@
         margin-right: auto;
         @include respond(big-desktop-min-2){
             padding-top: 30.3px;
-            padding-bottom: 50px;
+            padding-bottom: 30px;
         }
         @include respond(phone){
             padding-left:15px;

@@ -67,7 +67,7 @@
 
       var swiper = new Swiper(".mySwiper", {
         // slidesPerView: 1,
-        spaceBetween: 10,
+        spaceBetween: 20,
        
         loop: true,
         loopFillGroupWithBlank: true,

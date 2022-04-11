@@ -32,6 +32,9 @@
     width: 9%;
     z-index: -1;
     display: inline-block;
+    @include respond(big-desktop-min-2){
+      bottom: 6%;
+    }
     @include respond(phone-seven){
         width: 50%;
     }
@@ -53,7 +56,7 @@
   .experience  .swiper .swiper-button-prev{
     color: #ED2B23;
     width: 3%;
-    top: 84%;
+    top: 91%;
   }
   .experience  .swiper .swiper-button-next{
     right: 42.5% ;

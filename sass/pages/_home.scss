@@ -102,7 +102,7 @@
         // border: 1px solid red;
        
         @include respond(big-desktop-min-2){
-            font-size: 90px;
+            font-size: 70px;
         }
         @include respond(phone){
             font-size: 70px;
@@ -119,8 +119,8 @@
         top: 28%;
         left: 0.4%;
         @include respond(big-desktop-min-2){
-            font-size: 28px;
-            top: 24%;
+            font-size: 24px;
+            top: 22%;
         }
         @include respond(phone-md){
             top: 21%;
@@ -142,6 +142,10 @@
         color: #55556A;
         line-height: 30px;
         margin-top: 21.6px;
+        @include respond(big-desktop-min-2){
+            margin-top: 17.6px;
+            line-height: 27px;
+        }
     }
 }
 

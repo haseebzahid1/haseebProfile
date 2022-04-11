@@ -88,6 +88,9 @@ p {
   width: 9%;
   z-index: -1;
   display: inline-block; }
+  @media (max-width: 1400px) {
+    .experience .swiper .swiper-pagination-horizontal {
+      bottom: 6%; } }
   @media (max-width: 760px) {
     .experience .swiper .swiper-pagination-horizontal {
       width: 50%; } }
@@ -106,7 +109,7 @@ p {
 .experience .swiper .swiper-button-prev {
   color: #ED2B23;
   width: 3%;
-  top: 84%; }
+  top: 91%; }
 
 .experience .swiper .swiper-button-next {
   right: 42.5%; }
@@ -839,7 +842,7 @@ p {
     font-weight: bold; }
     @media (max-width: 1400px) {
       .section__section-h1 {
-        font-size: 90px; } }
+        font-size: 70px; } }
     @media (max-width: 667px) {
       .section__section-h1 {
         font-size: 70px; } }
@@ -855,8 +858,8 @@ p {
     left: 0.4%; }
     @media (max-width: 1400px) {
       .section__section-fixed {
-        font-size: 28px;
-        top: 24%; } }
+        font-size: 24px;
+        top: 22%; } }
     @media (max-width: 826px) {
       .section__section-fixed {
         top: 21%; } }
@@ -875,6 +878,10 @@ p {
     color: #55556A;
     line-height: 30px;
     margin-top: 21.6px; }
+    @media (max-width: 1400px) {
+      .section__section-p {
+        margin-top: 17.6px;
+        line-height: 27px; } }
 
 .ourteam-fixed {
   top: 37% !important; }
@@ -927,7 +934,7 @@ p {
     @media (max-width: 1400px) {
       .education__education-inner-row {
         padding-top: 30.3px;
-        padding-bottom: 50px; } }
+        padding-bottom: 30px; } }
     @media (max-width: 667px) {
       .education__education-inner-row {
         padding-left: 15px;
@@ -981,10 +988,10 @@ p {
     justify-content: space-between;
     padding-top: 95px;
     padding-bottom: 138.3px; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .knowledge__knowledge-row {
-        padding-top: 57.3px;
-        padding-bottom: 70px; } }
+        padding-top: 50px;
+        padding-bottom: 50px; } }
   .knowledge__knowledge-col {
     width: 100%;
     max-width: 33%; }
@@ -1010,6 +1017,9 @@ p {
       display: inline-block; }
   .knowledge__knowledge-item:not(:first-child) {
     margin-top: 24px; }
+    @media (max-width: 1400px) {
+      .knowledge__knowledge-item:not(:first-child) {
+        margin-top: 18px; } }
     @media (max-width: 667px) {
       .knowledge__knowledge-item:not(:first-child) {
         margin-top: 18px; } }
@@ -1028,10 +1038,14 @@ p {
   .skills__skills-row {
     padding-top: 98px;
     padding-bottom: 150px; }
+    @media (max-width: 1400px) {
+      .skills__skills-row {
+        padding-top: 60px;
+        padding-bottom: 55px; } }
     @media (max-width: 667px) {
       .skills__skills-row {
         padding-top: 57.3px;
-        padding-bottom: 70px; } }
+        padding-bottom: 50px; } }
   .skills__skills-row {
     display: flex; }
     @media (max-width: 826px) {
@@ -1078,7 +1092,7 @@ https://ant.design/components/progress/
     background-color: #fff;
     font-size: 24px;
     line-height: 1; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .circle .inner {
         width: 130px;
         height: 130px; } }
@@ -1138,7 +1152,7 @@ https://ant.design/components/progress/
     background-color: #fff;
     font-size: 24px;
     line-height: 1; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .circle-2 .inner {
         width: 130px;
         height: 130px; } }
@@ -1198,7 +1212,7 @@ https://ant.design/components/progress/
     background-color: #fff;
     font-size: 24px;
     line-height: 1; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .circle-3 .inner {
         width: 130px;
         height: 130px; } }
@@ -1258,7 +1272,7 @@ https://ant.design/components/progress/
     background-color: #fff;
     font-size: 24px;
     line-height: 1; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .circle-4 .inner {
         width: 130px;
         height: 130px; } }
@@ -1306,9 +1320,10 @@ https://ant.design/components/progress/
   .experience__slide-margin {
     padding-top: 98.5px !important;
     padding-bottom: 150px !important; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .experience__slide-margin {
-        padding-top: 57.3px !important; } }
+        padding-top: 57.3px !important;
+        padding-bottom: 80px !important; } }
   .experience__experience-line {
     width: 96%;
     display: block;
@@ -1316,10 +1331,17 @@ https://ant.design/components/progress/
     background-color: #3D3D52;
     margin-top: 29.7px;
     margin-bottom: 25.7px; }
+    @media (max-width: 1400px) {
+      .experience__experience-line {
+        margin-top: 25.7px;
+        margin-bottom: 20.7px; } }
   .experience__experience-img i {
     display: inline-block;
     font-size: 45px;
     color: #fff; }
+    @media (max-width: 1400px) {
+      .experience__experience-img i {
+        font-size: 38px; } }
   .experience__experience-date {
     font-size: 14px;
     display: inline-block;
@@ -1333,13 +1355,17 @@ https://ant.design/components/progress/
     letter-spacing: 25;
     margin-bottom: 23.7px;
     color: #fff; }
-    @media (max-width: 1240px) {
+    @media (max-width: 1400px) {
       .experience__experience-h2 {
-        font-size: 18px; } }
+        font-size: 18px;
+        margin-bottom: 18.7px; } }
   .experience__experience-p {
     font-size: 14px;
     line-height: 30px;
     color: #55556A; }
+    @media (max-width: 1400px) {
+      .experience__experience-p {
+        line-height: 27px; } }
   .experience__experience-item-flex {
     display: flex; }
 
@@ -1348,9 +1374,9 @@ https://ant.design/components/progress/
   .project__project-container {
     padding-top: 88px;
     padding-bottom: 150px; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .project__project-container {
-        padding-top: 57.3px;
+        padding-top: 50.3px;
         padding-bottom: 70px;
         padding-right: 1rem; } }
   .project__project-row {
@@ -1401,6 +1427,10 @@ https://ant.design/components/progress/
     color: #fff;
     font-weight: bold;
     line-height: 30px; }
+    @media (max-width: 1400px) {
+      .project__project-h2 {
+        font-size: 22px;
+        line-height: 28px; } }
   .project__project-date {
     font-size: 12px;
     display: inline-block;
@@ -1408,9 +1438,9 @@ https://ant.design/components/progress/
     line-height: 30px; }
   .project__projecn-mt:not(:first-child) {
     margin-top: 23px; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .project__projecn-mt:not(:first-child) {
-        margin-top: 0; } }
+        margin-top: 16px; } }
   .project__project-h3 {
     font-size: 16px;
     color: #fff;
@@ -1430,6 +1460,9 @@ https://ant.design/components/progress/
     color: #55556a;
     line-height: 30px;
     margin-top: 8px; }
+    @media (max-width: 1400px) {
+      .project__description-text {
+        line-height: 26px; } }
 
 .testimonial {
   position: relative;
