@@ -1630,11 +1630,11 @@ https://ant.design/components/progress/
     padding-bottom: 150px;
     display: flex;
     justify-content: space-between; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .language__language-row {
         flex-wrap: wrap;
-        padding-top: 57.3px;
-        padding-bottom: 70px; } }
+        padding-top: 70px;
+        padding-bottom: 90px; } }
   .language__language-col-3 {
     width: 100%;
     max-width: 25%;
@@ -1690,10 +1690,10 @@ https://ant.design/components/progress/
     justify-content: space-between;
     padding-top: 90px;
     padding-bottom: 148px; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .interests__interests-row {
-        padding-top: 26.6px;
-        padding-bottom: 40px; } }
+        padding-top: 40px;
+        padding-bottom: 60px; } }
   .interests__interests-col-3 {
     padding: 20px 0;
     width: 100%;
@@ -1710,6 +1710,9 @@ https://ant.design/components/progress/
           margin-top: 2rem; } }
   .interests__interests-col-mt {
     margin-top: 79px; }
+    @media (max-width: 1400px) {
+      .interests__interests-col-mt {
+        margin-top: 20px; } }
   .interests__interests-line {
     display: block;
     width: 100%;
@@ -1728,6 +1731,9 @@ https://ant.design/components/progress/
     display: inline-block;
     font-size: 40px;
     color: #fff; }
+    @media (max-width: 1400px) {
+      .interests__interests-img i {
+        font-size: 32px; } }
   .interests__interests-img-pt {
     padding-top: 1px; }
   .interests__interests-h2 {
@@ -1736,6 +1742,10 @@ https://ant.design/components/progress/
     line-height: 30px;
     font-weight: bold;
     margin-bottom: 17.5px; }
+    @media (max-width: 1400px) {
+      .interests__interests-h2 {
+        font-size: 22px;
+        margin-bottom: 15.5px; } }
     @media (max-width: 667px) {
       .interests__interests-h2 {
         margin-bottom: 14px; } }
@@ -1743,6 +1753,9 @@ https://ant.design/components/progress/
     font-size: 14px;
     color: #55556A;
     line-height: 30px; }
+    @media (max-width: 1400px) {
+      .interests__interests-p {
+        line-height: 27px; } }
   @media (max-width: 667px) {
     .interests__interests-sm-none {
       display: none; } }
@@ -1756,10 +1769,10 @@ https://ant.design/components/progress/
     flex-wrap: wrap;
     align-items: center;
     width: 100%; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .services__services-row {
-        padding-top: 57.7px;
-        padding-bottom: 70px; } }
+        padding-top: 60px;
+        padding-bottom: 65px; } }
   .services__services-col-6 {
     width: 100%;
     max-width: 50%; }
@@ -1808,6 +1821,10 @@ https://ant.design/components/progress/
     width: 100%;
     border-left: 1px solid #3D3D52;
     padding: 35px 40px 35px 28.7px; }
+    @media (max-width: 1400px) {
+      .services__services-content {
+        padding-top: 20px;
+        padding-bottom: 20px; } }
     @media (max-width: 826px) {
       .services__services-content {
         padding-right: 0; } }
@@ -1821,10 +1838,10 @@ https://ant.design/components/progress/
   .portfolio__portfolio_margin-tb {
     padding-top: 99px;
     padding-bottom: 149px; }
-    @media (max-width: 826px) {
+    @media (max-width: 1400px) {
       .portfolio__portfolio_margin-tb {
-        padding-top: 57.3px;
-        padding-bottom: 70px; } }
+        padding-top: 50px;
+        padding-bottom: 65px; } }
   .portfolio__portfolio-row {
     display: flex;
     flex-wrap: wrap;
@@ -1840,7 +1857,7 @@ https://ant.design/components/progress/
         flex-wrap: wrap; } }
     .portfolio__portfolio-row:not(:first-child) {
       margin-top: 30px; }
-      @media (max-width: 826px) {
+      @media (max-width: 1400px) {
         .portfolio__portfolio-row:not(:first-child) {
           margin-top: 15px; } }
   .portfolio__portfolio-col-8 {
@@ -1864,6 +1881,9 @@ https://ant.design/components/progress/
     height: 291.99px;
     overflow: hidden;
     position: relative; }
+    @media (max-width: 1400px) {
+      .portfolio__portfolio-img {
+        height: 220px; } }
     .portfolio__portfolio-img:before {
       content: '';
       position: absolute;
@@ -1891,6 +1911,9 @@ https://ant.design/components/progress/
     transition: all 0.3s ease-out 0.1s;
     opacity: 0;
     visibility: hidden; }
+    @media (max-width: 1400px) {
+      .portfolio__h1-hover {
+        font-size: 22px; } }
   .portfolio__p-hover {
     color: #fff;
     line-height: 30px;

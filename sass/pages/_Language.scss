@@ -6,10 +6,10 @@
         display: flex;
         justify-content: space-between;
       
-        @include respond(phone-md){
+        @include respond(big-desktop-min-2){
           flex-wrap: wrap;
-          padding-top: 57.3px;
-          padding-bottom: 70px;
+          padding-top: 70px;
+          padding-bottom: 90px;
         }
     }
     &__language-col-3{
