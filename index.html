@@ -17,105 +17,112 @@
  
 
 <body data-spy="scroll" data-target="#main-nav" id="home">
+  
+    <header class="cursor-light">
 
-    <nav class="nav" id="main-nav">
-       <div class="nav__nav-container">
-           <div class="nav__nav-row">
-               <div class="nav__nav-logo">
-                   <img src="././img/logo.png" alt="">
-               </div>
-             
-               <input type="radio" name="slide" id="menu-btn">
-               <input type="radio" name="slide" id="cancel-btn"> 
-               
-               <label for="menu-btn" class="nav__nav-bar menu-btn">
-                   <i class="an an-bars"></i>
-               </label>
-              
-               <ul class="nav__nav-list">
-                   <label for="cancel-btn" class="nav__nav-close cancel-btn">
-                       <i class="an an-times"></i>
-                   </label>  
-                   <div class="nav__nav-mobile-img">
-                       <img src="././img/logo.png" alt="">
-                   </div>
-                   <li class="nav__nav-item">
-                       <a href="#home" class="nav__nav-link">Personal info</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#education" class="nav__nav-link">Education</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#knowledge" class="nav__nav-link">Knowledge</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#Coding_skills" class="nav__nav-link">Coding skills</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#experience" class="nav__nav-link">Experience</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#project" class="nav__nav-link">Project</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#testimonials" class="nav__nav-link">Testimonials</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#language" class="nav__nav-link">Language</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#interests" class="nav__nav-link">Interests</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#services" class="nav__nav-link">Services</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#portfolio" class="nav__nav-link">Portfolio</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#clients" class="nav__nav-link">Clients</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#our_Team" class="nav__nav-link">Out Team</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#pricing" class="nav__nav-link">Pricing</a>
-                   </li>
-                   <li class="nav__nav-item">
-                       <a href="#contact" class="nav__nav-link">Contact</a>
-                   </li>
-
-                   <div class="nav__nav-social-content">
-                       <a href="#." class="nav__nav-icon-mobile">
-                           <i class="anb an-twitter"></i>
-                       </a>
-                       <a href="#." class="nav__nav-icon-mobile">
-                           <i class="anb an-facebook"></i>
-                       </a>
-                       <a href="#." class="nav__nav-icon-mobile">
-                           <i class="anb an-linkedin"></i>
-                       </a>
-                       <a href="#." class="nav__nav-icon-mobile">
-                           <i class="anb an-behance"></i>
-                       </a>
-                       <a href="#." class="nav__nav-icon-mobile">
-                           <i class="anb an-dribbble"></i>
-                       </a>
-                     </div>
-               </ul>
-            
-           </div>
-           <input type="checkbox" id="show-search" class="d-none">
-           <label for="show-search" class="nav__search-icon search-icon">
-               <i class="an an-search"></i>
-           </label>
-           <form action="#" class="nav__search-box search-box">
-               <input type="text" placeholder="Type Something to Search..." required class="nav__search-box-input">
-               <button type="submit" class="nav__go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
-             </form>
-             
-       </div>
-   </nav>
+        <!--Navigation-->
+        <nav class="nav nav__navbar-top-default nav-radius navbar-expand-lg pb-0 ">
+            <div class="nav__nav-container">
+                <div class="nav__nav-row">
+                    <div class="nav__nav-logo">
+                        <img src="././img/logo.png" alt="">
+                    </div>
+                  
+                    <input type="radio" name="slide" id="menu-bar">
+                    <input type="radio" name="slide" id="close-bar"> 
+                    
+                   
+                    <label for="menu-bar" class="nav__menu-bar">
+                     <span class="nav__menu-span"></span>
+                  </label>
+                    <ul class="nav__nav-list">
+                        <label for="close-bar" class="nav__nav-close">
+                            <!-- <i class="an an-times"></i> -->
+                            <i class="fa fa-times"></i>
+                        </label>  
+                        <div class="nav__nav-mobile-img">
+                            <img src="././img/logo.png" alt="">
+                        </div>
+                        <li class="nav__nav-item">
+                            <a href="#home" class="nav__nav-link">Personal info</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#education" class="nav__nav-link">Education</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#knowledge" class="nav__nav-link">Knowledge</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#Coding_skills" class="nav__nav-link">Coding skills</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#experience" class="nav__nav-link">Experience</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#project" class="nav__nav-link">Project</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#testimonials" class="nav__nav-link">Testimonials</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#language" class="nav__nav-link">Language</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#interests" class="nav__nav-link">Interests</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#services" class="nav__nav-link">Services</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#portfolio" class="nav__nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#clients" class="nav__nav-link">Clients</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#our_Team" class="nav__nav-link">Out Team</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#pricing" class="nav__nav-link">Pricing</a>
+                        </li>
+                        <li class="nav__nav-item">
+                            <a href="#contact" class="nav__nav-link">Contact</a>
+                        </li>
+     
+                        <div class="nav__nav-social-content">
+                            <a href="#." class="nav__nav-icon-mobile">
+                                <i class="anb an-twitter"></i>
+                            </a>
+                            <a href="#." class="nav__nav-icon-mobile">
+                                <i class="anb an-facebook"></i>
+                            </a>
+                            <a href="#." class="nav__nav-icon-mobile">
+                                <i class="anb an-linkedin"></i>
+                            </a>
+                            <a href="#." class="nav__nav-icon-mobile">
+                                <i class="anb an-behance"></i>
+                            </a>
+                            <a href="#." class="nav__nav-icon-mobile">
+                                <i class="anb an-dribbble"></i>
+                            </a>
+                          </div>
+                    </ul>
+                 
+                </div>
+                <input type="checkbox" id="show-search" class="d-none">
+                <label for="show-search" class="nav__search-icon search-icon">
+                    <!-- <i class="an an-search"></i> -->
+                    <i class="fas fa-search"></i>
+                </label>
+                <form action="#" class="nav__search-box search-box">
+                    <input type="text" placeholder="Type Something to Search..." required class="nav__search-box-input">
+                    <button type="submit" class="nav__go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+                  </form>
+                  
+            </div>
+        </nav>
+    
+    </header>
 
   <section class="person">
    <div class="person__person-bg"></div>

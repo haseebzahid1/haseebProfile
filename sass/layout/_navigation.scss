@@ -1,20 +1,50 @@
+#menu-bar:checked ~ .nav-list{
+    left: 0%;
+  }
+
 .nav{
+    position: absolute;
+    top: 0px;
+    z-index: 99;
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
-   
+    -webkit-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+    background: #0c0f13;
+    padding: 10px 0;
+    .header-appear &__navbar-top-default {
+        position: fixed;
+        top: 0;
+        z-index: 888;
+       
+        background: #232935;
+        -webkit-animation-name: animationFade;
+        animation-name: animationFade;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
+    }
+    @-webkit-keyframes animationFade {
+        from { opacity: 0; -webkit-transform: translate3d(0, -100%, 0); transform: translate3d(0, -100%, 0); }
+        to { opacity: 1; -webkit-transform: none; transform: none; }
+    }
+    @keyframes animationFade {
+        from { opacity: 0; -webkit-transform: translate3d(0, -100%, 0); transform: translate3d(0, -100%, 0);
+        }
+        to { opacity: 1; -webkit-transform: none; transform: none; }
+    }
     &__nav-container{
         width: 100%;
-        
         max-width: 1920px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 70px;
         padding-right: 30px;
         position: relative;
-        margin-top: 32px;
+        // margin-top: 32px;
         // border: 1px solid red;
         @include respond(phone-md){
             padding-left: 30px;
@@ -103,20 +133,72 @@
             color: #030318;
         }
     }
-    &__nav-bar{
-        color: #fff;
-        display: inline-block;
-        font-size: 19px;
+   
+    &__menu-bar{
+        // border: 1px solid red; 
+        display: block;
+        height: 30px;
+        width: 33px;
+        position: relative;
     }
+    &__menu-span{
+        position: absolute;
+        top: 13px;
+        left: 0;
+        width: 30px;
+        height: 2px;
+        background: #fff;
+        display: inline-block;
+    }
+    &__menu-span:before,
+&__menu-span:after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    transition:  all 0.2s ease-in-out;
+}
+&__menu-span:before{
+    top: -7px;
+    left: 0;
+    background: #fff;
+}
+&__menu-span:after{
+    top: 7px;
+    width: 15px;
+    right: 0;
+    background: #fff;
+}
+&__menu-bar:hover &__menu-span:before,
+&__menu-bar:hover &__menu-span:after{
+    width: 17px;
+}
+  
     &__nav-close{
         position: absolute;
-        top: 1.5rem;
-        right: 1.5rem;
+        top: 24px;
+        right: 22px;
         color: #030318;
-        display: inline-block;
-        font-size: 19px;
+        font-size: 26px;
+        cursor: pointer;
+        z-index: 1111;
     }
-    &__nav-container #menu-btn:checked ~ &__nav-list{
+    &__nav-close:hover{
+        -webkit-animation: .8s rotate;
+        animation: .8s rotate;
+    }
+      @-webkit-keyframes rotate {
+        from{
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+        to{
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+   
+    &__nav-container #menu-bar:checked ~ &__nav-list{
         right: 0%;
     }
 
@@ -127,7 +209,7 @@
         font-size: 22px;
         margin-right: 45px;
         position: absolute;
-        top: 13px;
+        top: 6px;
         right: 40px;
         cursor: pointer;
         @include respond(zero-size){
@@ -139,7 +221,7 @@
     &__search-box{
         position: absolute;
         height: 100%;
-        top: 0px;
+        top: 0%;
         left: 0%;
         width: 90%;
         height: 50px;
@@ -222,8 +304,10 @@
     }
 
 
-.nav #show-search:checked ~ .search-icon .an-search::before{
-    // content: "\f00d";
+.nav #show-search:checked ~ .search-icon i::before{
+    content: "\f00d";
+    font-size: 22px;
+    display: inline-block;
   }
 
 .nav #show-search:checked ~ .search-box{
@@ -234,3 +318,4 @@
   .d-none{
       display: none;
   }
+ 
