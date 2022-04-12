@@ -2193,13 +2193,15 @@ https://ant.design/components/progress/
     padding-top: 97.3px;
     padding-bottom: 150px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%; }
     @media (max-width: 1400px) {
       .contact__contact-row {
         padding-top: 57.3px;
         padding-bottom: 70px; } }
+    @media (max-width: 768px) {
+      .contact__contact-row {
+        flex-wrap: wrap; } }
   .contact__contact-col-8 {
     width: 100%;
     max-width: 60%; }
@@ -2229,13 +2231,25 @@ https://ant.design/components/progress/
     width: 100%; }
     .contact__contact-input-row:not(:first-child) {
       margin-top: 30px; }
+      @media (max-width: 576px) {
+        .contact__contact-input-row:not(:first-child) {
+          margin-top: 15px; } }
   .contact__contact-input-col-6 {
     width: 100%;
     max-width: 48%;
     height: 44px; }
+    @media (max-width: 576px) {
+      .contact__contact-input-col-6 {
+        max-width: 100%; } }
+  @media (max-width: 576px) {
+    .contact__contact-zero-mt {
+      margin-top: 15px; } }
   .contact__contact-input-row-2 {
     width: 100%;
     margin-top: 30px; }
+    @media (max-width: 576px) {
+      .contact__contact-input-row-2 {
+        margin-top: 15px; } }
   .contact__contact-input-col-12 {
     width: 100%;
     height: 44px; }
@@ -2288,10 +2302,17 @@ https://ant.design/components/progress/
     @media (max-width: 992px) {
       .contact__contact-img {
         height: 320px; } }
-    @media (max-width: 826px) {
+    @media (max-width: 768px) {
+      .contact__contact-img {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 1rem; } }
+    @media (max-width: 576px) {
       .contact__contact-img {
         margin-top: 2rem;
-        padding-left: 0; } }
+        padding-right: 0px;
+        padding-left: 0px;
+        height: 230px; } }
     .contact__contact-img img {
       width: 100%;
       height: 100%;
