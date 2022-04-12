@@ -1728,9 +1728,11 @@ https://ant.design/components/progress/
     justify-content: space-between; }
     @media (max-width: 1400px) {
       .language__language-row {
-        flex-wrap: wrap;
         padding-top: 70px;
         padding-bottom: 90px; } }
+    @media (max-width: 768px) {
+      .language__language-row {
+        flex-wrap: wrap; } }
     @media (max-width: 576px) {
       .language__language-row {
         padding-top: 42px;
@@ -1748,6 +1750,12 @@ https://ant.design/components/progress/
         padding-top: 1.25rem;
         padding-bottom: 2rem;
         border-bottom: 1px solid #55556A; } }
+  @media (max-width: 768px) {
+    .language__language-mt-3 {
+      margin-top: 2rem; } }
+  @media (max-width: 576px) {
+    .language__language-mt-3 {
+      margin-top: 0; } }
   @media (max-width: 667px) {
     .language .language-border-top {
       border-top: 1px solid #55556A; } }
@@ -2414,17 +2422,19 @@ https://ant.design/components/progress/
     display: inline-block;
     border-radius: 2px;
     transition: all 0.3s ease-in-out;
-    border: 1px solid #171717; }
+    border: 2px solid #cc2a24; }
     .pricing__pricing-btn-a:hover {
       background-color: #fff;
-      color: #030318; }
+      color: #030318;
+      border: 1px solid #171717; }
   .pricing .pricing-btn-a-1 {
     background-color: #fff;
     color: #030318;
     border: 1px solid #171717; }
     .pricing .pricing-btn-a-1:hover {
       background-color: #ED2B23 !important;
-      color: #fff !important; }
+      color: #fff !important;
+      border: 2px solid #cc2a24; }
   .pricing__pricing-table {
     position: absolute;
     top: 119px;

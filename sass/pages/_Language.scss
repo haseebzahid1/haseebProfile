@@ -7,9 +7,15 @@
         justify-content: space-between;
       
         @include respond(big-desktop-min-2){
-          flex-wrap: wrap;
+         
           padding-top: 70px;
           padding-bottom: 90px;
+        }
+        @include respond(phone-md-2){
+            flex-wrap: wrap;
+            // justify-content: center;
+            // flex-direction: column;
+            // align-items: center;
         }
         @include respond(zero-size-1){
          
@@ -22,9 +28,7 @@
         max-width: 25%;
         padding: 0 15px;
         @include respond(phone-md){
-            // border: 1px solid blue;
             max-width: 50%;
-           
         }
         @include respond(phone){
             max-width: 100%;
@@ -33,7 +37,14 @@
             border-bottom: 1px solid #55556A;
         }
     }
-
+    &__language-mt-3{
+        @include respond(phone-md-2){
+            margin-top: 2rem;
+        }
+        @include respond(zero-size-1){
+            margin-top: 0;
+        }
+    }
     .language-border-top{
         @include respond(phone){
             border-top: 1px solid #55556A;

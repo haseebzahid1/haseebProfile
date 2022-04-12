@@ -144,11 +144,12 @@
         display: inline-block;
         border-radius: 2px;
         transition: all 0.3s ease-in-out;
-        border: 1px solid #171717;
+        border: 2px solid #cc2a24;
         &:hover{
             background-color: #fff;
             color: #030318;
             
+            border: 1px solid #171717;
         }
     }
     .pricing-btn-a-1{
@@ -158,6 +159,7 @@
         &:hover{
             background-color: #ED2B23 !important;
             color: #fff !important;
+            border: 2px solid #cc2a24;
         }
     }
     &__pricing-table{

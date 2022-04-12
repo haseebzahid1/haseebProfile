@@ -24,11 +24,14 @@
     @if $breakpoint == phone-seven{
        @media (max-width: 760px) {@content}; //640px
     }
-  
+    @if $breakpoint == phone-md-2{
+        @media (max-width: 768px) {@content}; //640px
+     }
    
     @if $breakpoint == phone-md{
        @media (max-width: 826px) {@content}; //640px
     }
+   
   
      
     @if $breakpoint == tab-port-1{
@@ -67,16 +70,16 @@
 }
   
    @if $breakpoint == big-desktop-min{
-       @media (min-width: 1080px) {@content}; //1800px
+       @media (min-width: 1080px) {@content}; //1080px
    }
    @if $breakpoint == big-desktop-min-1{
        @media (max-width: 1265px) {@content}; //1800px
    }
    @if $breakpoint == big-desktop-min-2{
-       @media (max-width: 1400px) {@content}; //1800px
+       @media (max-width: 1400px) {@content}; //1400px
    }
    @if $breakpoint == big-desktop-min-3{
-       @media (max-width: 1500px) {@content}; //1800px
+       @media (max-width: 1500px) {@content}; //1500px
    }
    @if $breakpoint == big-desktop-min-4{
        @media (max-width: 1750px) {@content}; //1800px
