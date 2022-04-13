@@ -7,6 +7,17 @@
             padding-top:57.3px !important;
             padding-bottom: 80px !important;
         }
+        @include respond(tab-port){
+            padding-bottom: 40px;
+        }
+    }
+    &__experience-col{
+        padding-left: 30px;
+        padding-right: 30px;
+        @include respond(tab-port){
+            padding-left: 20px;
+            padding-right: 20px;
+        }
     }
    &__experience-line{
     width: 96%;
@@ -64,3 +75,61 @@
 
 }
 
+.experience .owl-theme .owl-dots button{
+    outline: none;
+    border: 1px solid transparent !important;
+    
+  }
+  .experience .owl-theme .owl-dots .owl-dot span{
+    width: 12px;
+     height: 12px;
+     background-color: #55556A;
+   
+     opacity: 1;
+     border-radius: 50px;
+     margin: 0 4px;
+     border: 1px solid transparent;
+     
+  }
+  .experience .owl-theme .owl-dots .owl-dot.active span,
+  .experience .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #ED2B23;
+    // opacity: 0.5;
+    width: 12px !important;
+    height: 12px !important;
+    margin: 0 4px;
+    border: 1px solid transparent;
+  }
+  .experience .owl-theme .owl-dots{
+    width: 100%;
+    position:absolute;
+    bottom: -22%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+  
+  }
+  .experience .owl-theme .owl-nav{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    margin-top: 0 !important;
+  }
+  .experience .owl-theme .owl-nav .owl-prev{
+    position: absolute;
+    left: 0;
+    display: block;
+  }
+  .experience .owl-theme .owl-nav .owl-next{
+    position: absolute;
+    right: 0;
+    display: block;
+  }
+  .experience .owl-theme .owl-nav button{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: red !important;
+    color: white !important;
+  }

@@ -146,10 +146,9 @@
 }
 
 .ourteam-fixed{
-    // position: absolute;
     top: 37% !important;
-    // left: 0.4%;
 }
+
 .ourteam-mt{
     margin-top: 60.3px;
 }
@@ -171,11 +170,11 @@
     position: fixed;
     bottom: 40px;
     right: 40px;
-    font-size: 25px;
+    font-size: 20px;
     background: #ED2B23;
-    width: 50px;
-    height: 50px;
-    line-height: 43px;
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
     border-radius: 50%;
     text-align: center;
     color: white;
@@ -185,6 +184,7 @@
     pointer-events: none;
     transition: opacity .3s ease-in-out;
     display: inline-block;
+    z-index: 777;
 
   }
   .back-to-top:hover{
@@ -193,11 +193,13 @@
   }
 
   .experience .owl-theme .owl-dots{
-    //   border: 1px solid red !important;
       position: absolute;
       bottom: 10%;
       left: 50%;
       transform: translate(-50% , -50%);
-    //   width: 320px;
    
   } 
+
+  .hrrr{
+      color: #fff !important;
+  }
