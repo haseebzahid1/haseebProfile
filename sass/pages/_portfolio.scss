@@ -93,6 +93,13 @@
                 object-fit: cover;
             }
     }
+    &__portfolio-link{
+        display: block;
+        width: 100%;
+        height: 100%;
+        z-index: 333;
+        position: relative;
+    }
     &__portfolio-col-mt:hover  &__portfolio-img:before{
         opacity: 1;
     }
