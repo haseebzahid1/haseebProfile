@@ -142,3 +142,13 @@ function toggle(){
             
         }
       });
+
+
+
+       // typing text animation script
+    var typed = new Typed(".typing", {
+      strings: ["Zahid"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+  });
