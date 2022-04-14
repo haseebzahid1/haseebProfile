@@ -69,6 +69,15 @@
        }
     //    padding-bottom: 60px;
    }
+   &__experience-a{
+       font-size: 14px;
+       display: block;
+       line-height: 30px;
+       color: #55556A;
+       @include respond(big-desktop-min-2){
+           line-height: 27px;
+       }
+   }
    &__experience-item-flex{
         display: flex;
    }

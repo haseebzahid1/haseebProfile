@@ -193,7 +193,7 @@ p {
   -webkit-transition: all .1s ease;
   -o-transition: all .1s ease;
   transition: all .1s ease;
-  background: #0c0f13;
+  background: #030318;
   padding: 10px 0; }
   .header-appear .nav__navbar-top-default {
     position: fixed;
@@ -1453,6 +1453,14 @@ https://ant.design/components/progress/
     color: #55556A; }
     @media (max-width: 1400px) {
       .experience__experience-p {
+        line-height: 27px; } }
+  .experience__experience-a {
+    font-size: 14px;
+    display: block;
+    line-height: 30px;
+    color: #55556A; }
+    @media (max-width: 1400px) {
+      .experience__experience-a {
         line-height: 27px; } }
   .experience__experience-item-flex {
     display: flex; }
