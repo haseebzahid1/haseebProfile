@@ -2322,10 +2322,10 @@ https://ant.design/components/progress/
   .pricing__pricing-bg-img {
     width: 100%;
     height: 100%;
-    height: 749px; }
+    height: 790px; }
     @media (max-width: 1400px) {
       .pricing__pricing-bg-img {
-        height: 574px; } }
+        height: 644px; } }
   .pricing .img {
     width: 100%;
     height: 100%;
@@ -2369,7 +2369,7 @@ https://ant.design/components/progress/
       .pricing__pricing-list {
         margin-bottom: 35px; } }
   .pricing__pricing-group:not(:first-child) {
-    margin-top: 23px; }
+    margin-top: 17px; }
     @media (max-width: 1400px) {
       .pricing__pricing-group:not(:first-child) {
         margin-top: 10px; } }
@@ -2382,7 +2382,7 @@ https://ant.design/components/progress/
     color: #ED2B23; }
   .pricing__pricing-title {
     font-size: 14px;
-    line-height: 30px;
+    line-height: 26px;
     color: #55556A; }
     @media (max-width: 1400px) {
       .pricing__pricing-title {
@@ -2407,11 +2407,11 @@ https://ant.design/components/progress/
     .pricing__pricing-btn-a:hover {
       background-color: #fff;
       color: #030318;
-      border: 1px solid #171717; }
+      border: 2px solid #171717; }
   .pricing .pricing-btn-a-1 {
     background-color: #fff;
     color: #030318;
-    border: 1px solid #171717; }
+    border: 2px solid #171717; }
     .pricing .pricing-btn-a-1:hover {
       background-color: #ED2B23 !important;
       color: #fff !important;
